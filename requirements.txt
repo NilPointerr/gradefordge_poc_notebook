@@ -1,0 +1,26 @@
+# GradeForge — Exam Paper Review Pipeline Dependencies
+
+# Core LLM Providers
+google-genai>=2.27.0
+groq>=1.7.0
+ollama>=0.6.3
+
+# Vector Database & Embeddings
+pinecone>=10.0.0
+sentence-transformers>=6.1.0
+
+# Document & PDF Processing / Report Generation
+reportlab>=4.0.0
+matplotlib>=3.8.0
+pypdf>=5.0.0
+pypdfium2>=4.0.0
+pylatexenc>=2.10
+
+# OCR & Document Extraction (Optional / Extended)
+paddleocr[doc-parser]>=3.7.0
+paddlepaddle>=3.0.0
+
+# Environment & Jupyter Notebook
+python-dotenv>=1.0.0
+ipykernel>=6.0.0
+notebook>=7.0.0

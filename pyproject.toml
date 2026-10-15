@@ -1,0 +1,27 @@
+[project]
+name = "student-test-review-pipeline-poc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai>=2.27.0",
+    "groq>=1.7.0",
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.2",
+    "notebook>=7.6.3",
+    "ollama>=0.6.3",
+    "paddleocr[doc-parser]>=3.7.0",
+    "paddlepaddle>=3.3.1",
+    "pinecone>=10.0.0",
+    "pymupdf>=1.28.2",
+    "python-dotenv>=1.2.3",
+    "sentence-transformers>=6.1.0",
+]
+
+[project.scripts]
+student-test-review-pipeline-poc = "student_test_review_pipeline_poc:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"

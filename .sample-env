@@ -1,0 +1,16 @@
+# Pinecone Vector Database
+PINECONE_API_KEY=""
+
+# Google Gemini (Primary LLM)
+GEMINI_API_KEY=""
+GEMINI_LLM_MODEL="gemini-3-flash-preview"
+
+# Groq (Cloud Fallback LLM)
+GROQ_API_KEY=""
+GROQ_LLM_MODEL="openai/gpt-oss-120b"
+
+# Ollama (Local Fallback LLM)
+OLLAMA_MODEL="qwen3:4b"
+
+# Cross-Encoder Reranker
+RERANK_MODEL="cross-encoder/ms-marco-MiniLM-L-6-v2"
